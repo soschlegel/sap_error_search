@@ -6,7 +6,7 @@ CLASS zcl_ssc_test DEFINITION
   PUBLIC SECTION.
 
     INTERFACES:
-      zif_ssc_interf_with_long_name.
+      zif_ssc_interface_specific.
 
   PROTECTED SECTION.
   PRIVATE SECTION.
@@ -17,7 +17,7 @@ ENDCLASS.
 CLASS zcl_ssc_test IMPLEMENTATION.
 
 
-  METHOD zif_ssc_first_interface_to_use~do_something_as_long_as_possib.
+  METHOD zif_ssc_interface_generall_top~do_something_as_long_as_possib.
 
   ENDMETHOD.
 

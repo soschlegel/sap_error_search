@@ -18,7 +18,10 @@ CLASS zcl_ssc_caller IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
 
-    zcl_factory_with_very_long_nam=>go_this_is_also_a_longer_name->zif_ssc_first_interface_to_use~do_something_as_long_as_possib( ).
+    zcl_factory_with_very_long_nam=>go_this_is_also_a_longer_name->zif_ssc_interface_generall_top~do_something_as_long_as_possib( ).
+
+
+    out->write(  'hello world!' ).
 
   ENDMETHOD.
 
