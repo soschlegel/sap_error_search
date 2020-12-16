@@ -1,7 +1,7 @@
 INTERFACE zif_ssc_interf_with_long_name
   PUBLIC .
 
-  METHODS:
-    do_something_as_long_as_possib.
+  INTERFACES:
+    zif_ssc_first_interface_to_use.
 
 ENDINTERFACE.

@@ -16,11 +16,8 @@ ENDCLASS.
 
 CLASS zcl_ssc_test IMPLEMENTATION.
 
-  METHOD zif_ssc_interf_with_long_name~do_something_as_long_as_possib.
 
-    IF 1 = 2.
-
-    ENDIF.
+  METHOD zif_ssc_first_interface_to_use~do_something_as_long_as_possib.
 
   ENDMETHOD.
 
